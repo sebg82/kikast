@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		BE5573121A13A8F400701184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5573111A13A8F400701184 /* main.m */; };
 		BE5573151A13A8F400701184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5573141A13A8F400701184 /* AppDelegate.m */; };
-		BE5573181A13A8F400701184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5573171A13A8F400701184 /* ViewController.m */; };
+		BE5573181A13A8F400701184 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5573171A13A8F400701184 /* SignupViewController.m */; };
 		BE55731B1A13A8F400701184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5573191A13A8F400701184 /* Main.storyboard */; };
 		BE55731D1A13A8F400701184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE55731C1A13A8F400701184 /* Images.xcassets */; };
 		BE5573201A13A8F400701184 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE55731E1A13A8F400701184 /* LaunchScreen.xib */; };
 		BE55732C1A13A8F400701184 /* kikastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE55732B1A13A8F400701184 /* kikastTests.m */; };
+		BE5573381A13AE5C00701184 /* RegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5573371A13AE5C00701184 /* RegisteredViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		BE5573111A13A8F400701184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE5573131A13A8F400701184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE5573141A13A8F400701184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE5573161A13A8F400701184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE5573171A13A8F400701184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE5573161A13A8F400701184 /* SignupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		BE5573171A13A8F400701184 /* SignupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		BE55731A1A13A8F400701184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE55731C1A13A8F400701184 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE55731F1A13A8F400701184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE5573251A13A8F400701184 /* kikastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE55732A1A13A8F400701184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE55732B1A13A8F400701184 /* kikastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kikastTests.m; sourceTree = "<group>"; };
+		BE5573361A13AE5C00701184 /* RegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredViewController.h; sourceTree = "<group>"; };
+		BE5573371A13AE5C00701184 /* RegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				BE5573131A13A8F400701184 /* AppDelegate.h */,
 				BE5573141A13A8F400701184 /* AppDelegate.m */,
-				BE5573161A13A8F400701184 /* ViewController.h */,
-				BE5573171A13A8F400701184 /* ViewController.m */,
+				BE5573161A13A8F400701184 /* SignupViewController.h */,
+				BE5573171A13A8F400701184 /* SignupViewController.m */,
+				BE5573361A13AE5C00701184 /* RegisteredViewController.h */,
+				BE5573371A13AE5C00701184 /* RegisteredViewController.m */,
 				BE5573191A13A8F400701184 /* Main.storyboard */,
 				BE55731C1A13A8F400701184 /* Images.xcassets */,
 				BE55731E1A13A8F400701184 /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5573181A13A8F400701184 /* ViewController.m in Sources */,
+				BE5573181A13A8F400701184 /* SignupViewController.m in Sources */,
 				BE5573151A13A8F400701184 /* AppDelegate.m in Sources */,
+				BE5573381A13AE5C00701184 /* RegisteredViewController.m in Sources */,
 				BE5573121A13A8F400701184 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
